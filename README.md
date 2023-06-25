@@ -5,7 +5,7 @@
 本项目是一个仿微信架构的小功能集合app。项目包含以下文件：
 
 ## 项目运行效果截图
-<img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/login.jpg" width="150" height="187.5">
+<img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/login.jpg" width="150" height="387.5">
 
 ## 功能
 
