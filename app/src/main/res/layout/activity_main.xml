@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/wechat2">
+
+    <LinearLayout
+        android:layout_width="334dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/welcome"-->
+<!--            android:textColor="#0F2F8F"-->
+<!--            android:textSize="40sp"-->
+<!--            android:textStyle="bold"></TextView>-->
+
+
+    </LinearLayout>
+
+    <!-- 账户输入框 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp">
+
+        <TextView
+            android:id="@+id/text_account"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/account"
+            android:textColor="#006FFF"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/text_account1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/text_account"
+            android:hint="@string/hint_account"></EditText>
+
+
+    </RelativeLayout>
+    <!-- 密码输入框 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp">
+
+        <EditText
+            android:id="@+id/text_password1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/text_password"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:maxLines="1"></EditText>
+
+
+        <TextView
+            android:id="@+id/text_password"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/password"
+            android:textColor="#006FFF"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:text="记住用户名和密码"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textColor="@color/white"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:layout_marginStart="50dp"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wechat</string>
+    <string name="welcome">welcome to login</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="hint_account">Input your account</string>
+    <string name="hint_password">Input your password</string>
+    <string name="tsize">25sp</string>
+    <string name="sign_up">sign up</string>
+    <string name="Alex">LiuEhe Music</string>
+    <string name="Blow">和煦的糖果风</string>
+    <string name="Aua">Candy_Wind</string>
+    <string name="two">-0.25</string>
+    <string name="one">0.25</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/flip"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="天气预报"
+        android:textColor="#DD3333"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="输入城市的名称："
+        android:minHeight="48dp"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查询" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_wd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="30dp"
+        android:textColor="#FF6200EE"/>
+
+    <TextView
+        android:id="@+id/tv_fx"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="30dp"
+        android:textColor="#FF6200EE"/>
+
+    <TextView
+        android:id="@+id/tv_tq"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="30dp"
+        android:textColor="#FF6200EE"/>
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:textColor="#FF6200EE"/>
+
+</LinearLayout>
