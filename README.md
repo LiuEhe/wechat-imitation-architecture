@@ -5,7 +5,7 @@
 本项目是一个仿微信架构的小功能集合app。项目包含以下文件：
 
 ## app功能截图
-<img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/login_in.jpg" width="180" height="400"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/register.jpg" width="180" height="400"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/chat.jpg" width="180" height="400"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/weather.jpg" width="180" height="400"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/calculate.jpg" width="180" height="400"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/music.jpg" width="180" height="400">
+<img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/login_in.jpg" width="150" height="333"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/register.jpg" width="150" height="333"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/chat.jpg" width="150" height="333"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/weather.jpg" width="150" height="333"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/calculate.jpg" width="150" height="333"><img src="https://github.com/LiuEhe/wechat-imitation-architecture/blob/main/result_picture/music.jpg" width="150" height="333">
 
 
 
