@@ -42,7 +42,8 @@
 
 ## 注意
 
-- 点击  [下载](https://github.com/LiuEhe/wechat-imitation-architecture/releases/tag/v1.0.0) 后，安装即可
+- 点击  [下载](https://github.com/LiuEhe/wechat-imitation-architecture/releases/tag/v1.0.0) 后，选择app-debug.apk
+安装即可
 - 由于水平以及时间有限，聊天功能有信息接受错误bug，计算器功能有闪退bug，音乐播放器功能不完整。
 - 若使用出现问题，请在issue提出。
 
